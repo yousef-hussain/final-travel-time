@@ -1,0 +1,269 @@
+@media (max-width: 575.9px) {
+  p {
+    font-size: 13px;
+  }
+  /* start head */
+  header {
+    padding: 0;
+    padding-top: 10px;
+  }
+  header nav::after {
+    height: 0;
+    width: 0;
+  }
+  header nav .menu-small ul li .head-search-bar input {
+    width: 100px;
+  }
+  /* end head */
+  /* start main */
+  .main .swiper {
+    height: 80vh;
+  }
+  .main .swiper .swiper-slide {
+    padding-left: 25px;
+  }
+  .main .swiper .swiper-slide h1 {
+    font-size: 50px;
+  }
+  .swiper-pagination-vertical.swiper-pagination-bullets {
+    display: none;
+  }
+  .main .swiper .swiper-pagination .swiper-pagination-bullet {
+    font-size: 20px;
+  }
+  /* end main */
+  /* start popular */
+  .popular .pop-cards a .pop-card {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .popular .pop-cards a .pop-card:hover {
+    height: 350px;
+    transform: unset;
+    box-shadow: unset;
+  }
+  /* end popular */
+  /* start footer */
+  footer {
+    padding-top: 100px;
+    /* padding: 50px 0; */
+    padding-bottom: 50px;
+  }
+  footer .upp-footer .foot-title h1 {
+    font-size: 25px;
+  }
+  footer .upp-footer .foot-text {
+    margin-bottom: 20px;
+  }
+  footer .upp-footer .foot-text a p, 
+  footer .upp-footer .foot-text span {
+    text-shadow: 1px 1px 2px #000;
+  }
+  footer .upp-footer .foot-video {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .upp-footer .foot-video video {
+    width: 250px;
+    height: 150px;
+  }
+  footer .upp-footer .foot-video video:first-of-type {
+    margin-bottom: 20px;
+  }
+  footer .down-footer {
+    width: 300px;
+  }
+  footer .down-footer .down-foot-link .foot-icon {
+    font-size: 18px;
+    }
+  /* end footer */
+  /* start loading */
+  .sk-cube-grid {
+    width: 50px;
+    height: 50px;
+  }
+  /* end loading  */
+}
+@media (min-width: 576px) and (max-width: 767.9px) {
+  p {
+    font-size: 14px;
+  }
+  /* start head */
+  header nav {
+    padding: 0 30px;
+  }
+  header nav::after {
+    height: 0;
+    width: 0;
+  }
+  /* end head */
+  /* start main */
+  .main .swiper {
+    height: 80vh;
+  }
+  .main .swiper .swiper-slide h1 {
+    font-size: 70px;
+  }
+  .swiper-pagination-vertical.swiper-pagination-bullets {
+    right: 40px;
+  }
+  .main .swiper .swiper-pagination .swiper-pagination-bullet {
+    font-size: 20px;
+  }
+  /* end main */
+  /* start popular */
+  .popular .pop-cards a .pop-card {
+    margin-bottom: 20px;
+  }
+  .popular .pop-cards a .pop-card:hover {
+    height: 350px;
+    transform: unset;
+    box-shadow: unset;
+  }
+  /* end popular */
+  /* start footer */
+  footer {
+    padding: 50px 0;
+  }
+  footer .upp-footer .foot-title h1 {
+    font-size: 30;
+  }
+  footer .upp-footer .foot-text {
+    margin-bottom: 20px;
+  }
+  footer .upp-footer .foot-text a p, 
+  footer .upp-footer .foot-text span {
+    text-shadow: 1px 1px 2px #000;
+  }
+  footer .upp-footer .foot-video {
+    flex-direction: row;
+    align-items: center;
+  }
+  footer .down-footer {
+    width: 300px;
+  }
+  footer .down-footer .down-foot-link .foot-icon {
+    font-size: 20px;
+    }
+  /* end footer */
+  /* start loading */
+  .sk-cube-grid {
+    width: 50px;
+    height: 50px;
+  }
+  /* end loading  */
+}
+@media (min-width: 768px) and (max-width: 991.9px){
+  p {
+    font-size: 15px;
+  }
+  /* start head */
+  header nav {
+    padding: 0 40px;
+  }
+  header nav::after {
+    height: 0;
+    width: 0;
+  }
+  /* end head */
+  /* start main */
+  .main .swiper .swiper-slide h1 {
+    font-size: 80px;
+  }
+  .swiper-pagination-vertical.swiper-pagination-bullets {
+    right: 70px;
+  }
+  .main .swiper .swiper-pagination .swiper-pagination-bullet {
+    font-size: 20px;
+  }
+  /* end main */
+  /* start popular */
+  .popular .pop-cards a .pop-card {
+    margin-bottom: 20px;
+  }
+  .popular .pop-cards a .pop-card:hover {
+    height: 350px;
+    transform: unset;
+    box-shadow: unset;
+  }
+  /* end popular */
+  /* start footer */
+  footer {
+    padding: 50px 0;
+  }
+  footer .upp-footer .foot-title h1 {
+    font-size: 40;
+  }
+  footer .upp-footer .foot-text a p, 
+  footer .upp-footer .foot-text span {
+    text-shadow: 1px 1px 2px #000;
+  }
+  footer .upp-footer .foot-video {
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  footer .upp-footer .foot-video video {
+    width: 230px;
+    height: 180px;
+  }
+  /* end footer */
+  /* start loading */
+  .sk-cube-grid {
+    width: 50px;
+    height: 50px;
+  }
+  /* end loading  */
+}
+@media (min-width: 992px) and (max-width: 1199.9px) {
+  p {
+    font-size: 15px;
+  }
+  /* start head */
+  header nav .head-search-bar input {
+    width: 150px;
+  }
+  /* end head */
+  /* start main */
+  .main .swiper .swiper-pagination .swiper-pagination-bullet {
+    font-size: 21px;
+  }
+  /* end main */
+  /* start footer */
+  footer {
+    padding: 55px 0;
+  }
+  footer .upp-footer .foot-title h1 {
+    font-size: 45;
+  }
+  footer .upp-footer .foot-text a p  {
+    text-shadow: 1px 1px 2px #000;
+  }
+  footer .upp-footer .foot-video video {
+    width: 250px;
+    height: 200px;
+  }
+  /* end footer */
+}
+
+
+@media (min-width: 1200px) and (max-width: 1399.9px){
+
+}
+
+@media (min-width: 1400px) {
+  /* start popular */
+  .popular .pop-cards a .pop-card {
+    height: 400px;
+  }
+  .popular .pop-cards a .pop-card:hover {
+    height: 400px;
+  }
+  /* end popular */
+  /* start footer */
+  footer .upp-footer .foot-video video {
+    width: 350px;
+    height: 220px;
+  }
+  /* end footer */
+}
